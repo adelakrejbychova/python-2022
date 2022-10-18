@@ -14,7 +14,6 @@ class Recept:
         print (f'Náročnost receptu na {self.nazev} byla změněna na {self.narocnost}/10. ')
     def zkusit(self):
         self.vyzkouseno = True
-        return True
 
 class Kucharka:
     def __init__(self, nazev, autor):
